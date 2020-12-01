@@ -27,7 +27,7 @@
                         <input type="text" id="jmeno" name="jmeno" placeholder="např. Petr Novák" class="form-control"
                             required pattern="^()([a-zA-ZěščřžáíéťďóňĚŠČŘŽÁÍÉŤĎÓŇ]{3,})\s([a-zA-ZěščřžýáíéťďóňĚŠČŘŽÁÍÉŤĎÓŇ]{3,})$">
                         <div class="valid-feedback">Platný údaj.</div>
-                        <div class="invalid-feedback">Prosím, vyplňte správně křestní jméno.</div>
+                        <div class="invalid-feedback">Prosím, vyplňte správně jméno a příjmení.</div>
                     </div>
                 </div>
                 
@@ -127,7 +127,7 @@
                             <div class="input-group-prepend">
                                 <span class="input-group-text" id="inputGroupPrepend">@</span>
                             </div>
-                            <input type="text" class="form-control" name="username" id="username" placeholder="?" pattern="^(it|u|sv[ab])(1[6-9]|20)(0[1-9]|[12][0-9]|3[0-5])$"
+                            <input type="text" class="form-control" name="username" id="username" placeholder="?" pattern="^(?i)(it|u|sv[ab])(1[6-9]|20)(0[1-9]|[12][0-9]|3[0-5])$"
                                 aria-describedby="inputGroupPrepend" required>
                             <div class="invalid-feedback">
                                 Zadejte správné uživatelské jméno
